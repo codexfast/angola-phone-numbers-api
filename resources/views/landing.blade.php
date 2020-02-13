@@ -210,7 +210,7 @@
     <div class="site-section courses-title" id="about-section">
       <div class="container">
         <div class="row mb-5 justify-content-center">
-          <div class="col-lg-7 text-center" data-aos="fade-up" data-aos-delay="">
+          <div class="col-lg-7 text-center mt-4" data-aos="fade-up" data-aos-delay="">
             <h2 class="section-title">Sobre</h2>
             <p class="text-white">APNA que significa Angola Phone Number API, é uma API Angolana criada por Be Grand,
               uma
@@ -249,22 +249,22 @@
             <h5 class="text-center">Titular das contas: <b>Ravelino de Castro</b></h5>
             <hr>
             <div class="row mb-5">
-              <div class="col-12 col-md-4">
+              <div class="col-12 col-md-4 mt-2" data-aos="fade-right">
                 <p>País: <b>Angola</b></p>
                 <p>Banco: <b>Millenium Atlantico</b></p>
                 <p>IBAN: <b>AO06 0040 0000 1812 7588 1016 5</b></p>
                 <p>Nº da conta: <b>1181275810001</b></p>
                 <p>SWIFT: <b>BAIPAPLU</b></p>
               </div>
-              <div class="col-12 col-md-4">
+              <div class="col-12 col-md-4 mt-2" data-aos="fade-up">
                 <p>País: <b>Portugal</b></p>
                 <p>Banco: <b>Atlantico Europa</b></p>
                 <p>IBAN: <b>PT50 0189 0002 5934 7512 0017 5</b></p>
                 <p>Nº da conta: <b>259347510001</b></p>
                 <p>SWIFT: <b>BAPAPTPL</b></p>
               </div>
-              <div class="col-12 col-md-4">
-                <form action="/donate" method="post" data-aos="fade">
+              <div class="col-12 col-md-4 mt-2" data-aos="fade-left">
+                <form action="/donate" method="post">
                   {{ csrf_field() }}
                   @if(session('message_paypal'))
                   <div class="alert alert-success">

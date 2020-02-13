@@ -23,7 +23,8 @@
             }
         }  
         public function info($phone){
-            $phone = Phone::whereNumber($this->validatePhone($phone, false))->first();
+            $phone = Phone::whereNumber($this->validatePhone($phone, true))->first();
+
             return response()->json(['message' => "Operação realizada com sucesso.", 'phone' => $phone,'success' => true]);
         }
         public function get(){

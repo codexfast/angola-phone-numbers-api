@@ -16,13 +16,13 @@ class UsersTableSeeder extends Seeder
         //
         $users = ([
             [
-            'first_name' => 'Ravelino',
-            'last_name' => 'de Castro',
+            'first_name' => 'Gilberto',
+            'last_name' => 'Souza',
             'birth_date' => Carbon:: now()-> format('Y-m-d'),
             'gender'=> '1',
-            'email' => 'ravelinodecastro@begrand.tech',
+            'email' => 'codexfast@gmail.com',
             'phone' => '927562797',
-            'address' => 'Luanda, Angola',
+            'address' => 'São Paulo, Brazil',
             'password' => Hash::make('admin123'),
             'status' => '0',
             'type' => '0',
